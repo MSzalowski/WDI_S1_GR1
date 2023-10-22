@@ -17,9 +17,6 @@ assert(sum_of_digits(333) == 9)
 assert(sum_of_digits(3333) == 12)
 
 def digital_root(number):
-  if (isinstance(number, int) == False):
-    return 0
-  
   sum=sum_of_digits(number)
   while sum>9:
     sum=sum_of_digits(sum)
