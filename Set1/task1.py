@@ -25,3 +25,6 @@ assert(GCD(2, 4) == 2)
 assert(GCD(4, 2) == 2)
 
 assert(GCD(124, 48) == 4)
+
+# 2-2
+# 3-4
